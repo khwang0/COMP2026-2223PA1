@@ -17,8 +17,6 @@
 > 
 > ```sh
 > > java -jar demo.jar
-> Please enter a filename:
-> sudoku1.txt
 > ```
 
 
