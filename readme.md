@@ -13,7 +13,7 @@
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2026-2223PA1/archive/refs/heads/master.zip)
 
-> To run the demo program on Windows, type the following in your terminal:
+> To run the demo program, type the following in your terminal:
 > 
 > ```sh
 > > java -jar demo.jar
@@ -23,29 +23,29 @@
 
 # Learning outcome
 
-Students are expected to have some practice on arrays/2D arrays/parameter passing/method construction and usage in this assignments. We expect most students would spend X hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
+Students are expected to have some practice on arrays/2D arrays/parameter passing/method construction and usage in this assignment. We expect most students would spend six hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
 
 
 # Introduction
 
-You are going to complete the Connect4 program! Open [Connect4.java](Connect4.java) and complete the methods stated in the skeleton code. Some of these methods are very straight forward while some of them ain't that easy. Make sure you can follow the instructions given at the top of each method.
+You are going to complete the Connect4 program! Open [Connect4.java](Connect4.java) and complete the methods stated in the skeleton code. Some of these methods are very straightforward while some of them ain't that easy. Make sure you can follow the instructions given at the top of each method.
 
 A [sample program](demo.jar) is given to you. When there is something you are not sure, you can take a look at the sample program to decide what to do.
 
 Some methods are labeled as completed or given. Please don't make any change on those methods. You are not supposed to modify them.
 
-# Explanation of the game of Sudoku
+# Explanation of the game Connect4
 
 ![](connect4.png)
 
 <sub><sup>image ref: https://www.101computing.net/connect4-challenge/</sup></sub>
 
-You can skip this section if you have some experience in playing the game Connect4!. It is a grid of 6x8 gameboard where players take turn to drop their block into one of these column. Their block will reach the bottom by gravity. Whoever player first reaches a line of consecutive four block of his/her own color wins. The game is tie if all the holes are filled and no one wins.
+You can skip this section if you have some experience in playing the game Connect4!. It is a grid of 6x8 gameboard where players take turn to drop their block into one of these columns. Their block will reach the bottom by gravity. Whoever player first reaches a line of consecutive four blocks of his/her own symbol wins. The game ends with "draw" if all the holes are filled and no one wins.
 
 
 # Explanation about the assignment
 
-You are given the skeleton code [Connect4.java](Connect4.java). Complete all methods in the assignment with respect to the instruction stated on the assignment.
+You are given the skeleton code [Connect4.java](Connect4.java). Complete all methods in the assignment with respect to the instructions stated in the Java file.
 
 
 
@@ -60,7 +60,7 @@ Submit your answers on Moodle.
 
 1. Which method is responsible to print the game board?
 2. Which method is responsible to decide if the game ends?
-3. Will the a player lose his/her turn if he/she decides to change his/her symbol?
+3. Will a player lose his/her turn if he/she decides to change his/her symbol?
 4. What key should I press if I decide to restart the game?
 
 
@@ -99,7 +99,7 @@ if (lateHour > 0) {
 
  ## Plagiarism
 
- Plagiarism is a serious offense and can be easily detected. Please don't share your code to your classmate even if they are threatening you with your friendship. If they don't have the ability to work on something that can compile, they would not be able to change your code to a state that we can't detect the act of plagiarism. For the first commit of plagiarism, regardless you shared your code or copied code from others, you will receive 0 with an addition of 5 mark penalty. If you commit plagiarism twice, your case will be presented in the exam board and you will receive a F directly.
+ Plagiarism is a serious offense and can be easily detected. Please don't share your code to your classmate even if they are threatening you with your friendship. If they don't have the ability to work on something that can compile, they would not be able to change your code to a state that we can't detect the act of plagiarism. For the first commit of plagiarism, regardless you shared your code or copied code from others, you will receive 0 with an addition of 5-mark penalty. If you commit plagiarism twice, your case will be presented in the exam board and you will receive a F directly.
 
 ## Marking Scheme 
 This assignment is worth X% of the course mark.  There are three elements in the marking scheme: 

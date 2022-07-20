@@ -7,19 +7,17 @@ import java.util.Scanner;
  *          GitHub.
  * 
  *          Plagiarism is a serious offense and can be easily detected. Please
- *          don't share your code to your classmate even
- *          if they are threatening you with your friendship. If they don't have
- *          the ability to work on something that can compile,
- *          they would not be able to change your code to a state that we can't
- *          detect the act of plagiarism. For the first commit
- *          of plagiarism, regardless you shared your code or copied code from
- *          others, you will receive 0 with an addition of 5 mark
- *          penalty. If you commit plagiarism twice, your case will be presented
- *          in the exam board and you will receive a F directly.
+ *          don't share your code to your classmate even if they are threatening
+ *          you with your friendship. If they don't have the ability to work on
+ *          something that can compile, they would not be able to change your
+ *          code to a state that we can't detect the act of plagiarism. For the
+ *          first commit of plagiarism, regardless you shared your code or
+ *          copied code from others, you will receive 0 with an addition of 5
+ *          mark penalty. If you commit plagiarism twice, your case will be
+ *          presented in the exam board and you will receive a F directly.
  *
  *          If you cannot work out the logic of the assignment, simply contact
- *          us
- *          on Piazza. The teaching team is more the eager to provide
+ *          us on Piazza. The teaching team is more the eager to provide
  *          you help. We can extend your submission due if it is really
  *          necessary. Just please, don't give up.
  */
@@ -44,16 +42,17 @@ public class Connect4 {
     }
 
     /**
-     * Your program entry. There are two line missing. Please complete the line
-     * labeled with TODO
+     * Your program entry. There are two lines missing. Please complete the line
+     * labeled with TODO. You can, however, write more than two lines to complete
+     * the logic required by TODO. You are not supposed to modify any part other
+     * than the TODOs.
      */
     void runOnce() {
         // For people who are not familiar with constants - HEIGHT and WIDTH are two
-        // constants defined above.
-        // These two constants are visible in the entire program. They cannot be further
-        // modified, i.e., it is
-        // impossible to write HEIGHT = HEIGHT + 1; or WIDTH = 0; anywhere in your code.
-        // However, you can use
+        // constants defined above. These two constants are visible in the entire
+        // program. They cannot be further modified, i.e., it is impossible to write
+        // HEIGHT = HEIGHT + 1; or WIDTH = 0; anywhere in your code. However, you can
+        // use
         // these two constants as a reference, i.e., row = HEIGHT - 1, for example.
 
         int board[][] = new int[HEIGHT][WIDTH];
@@ -91,9 +90,9 @@ public class Connect4 {
                     }
 
                     // convert the char 's' to the integer 'column', with the value 0 to 7
-                    int column = // TODO
+                    int column = ;// TODO
 
-                            fillBoard(board, column, player);
+                    fillBoard(board, column, player);
                     printBoard(board, symbols);
                     if (isGameOver(board)) {
                         System.out.println("Player " + player + ", you win!");
@@ -104,8 +103,7 @@ public class Connect4 {
                         System.out.println("Check!");
 
                     // TODO: after each iteration, change the variable "player" alternatively
-                    // between
-                    // the integers 1 and 2.
+                    // between the integers 1 and 2.
 
             } // end switch
         } // end while
@@ -151,8 +149,7 @@ public class Connect4 {
     /**
      * This method is very similar to the method check. However, a check-mate move
      * means no matter how the other player place his/her next block, in the next
-     * turn
-     * the player can win the game with certain move.
+     * turn the player can win the game with certain move.
      * 
      * A check-mate move must be a check move. Not all check moves are check-mate
      * move.
@@ -182,10 +179,9 @@ public class Connect4 {
 
     /**
      * Given the column (in integer) that a player wish to place his/her block,
-     * update the gameboard.
-     * You may assume that the input has been validated before calling this method,
-     * i.e., there always has
-     * room to place the block when calling this method.
+     * update the gameboard. You may assume that the input has been validated before
+     * calling this method, i.e., there always has room to place the block when
+     * calling this method.
      * 
      * @param board  - the game board
      * @param column - the column that the player want to places its block
@@ -216,12 +212,10 @@ public class Connect4 {
 
     /**
      * Print the game board in a particular format. The instruction can be referred
-     * to the GitHub or the demo program.
-     * By default, Player 1 uses the character '1' to represent its block. Player 2
-     * uses the character '2'. They can
-     * be overrided by the value of symbols array. This method does not change the
-     * value of the gameboard nor the symbols
-     * array.
+     * to the GitHub or the demo program. By default, Player 1 uses the character
+     * '1' to represent its block. Player 2 uses the character '2'. They can be
+     * overrided by the value of symbols array. This method does not change the
+     * value of the gameboard nor the symbols array.
      *
      * @param board   - the game board to be printed.
      * @param symbols - the symbols that represents player 1 and player 2.
