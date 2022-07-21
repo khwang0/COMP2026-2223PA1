@@ -115,7 +115,7 @@ public class Connect4 {
      * @param board - the game board array
      */
     void restart(int[][] board) {
-
+        //TODO
     }
 
     /**
@@ -128,7 +128,7 @@ public class Connect4 {
      * @param symbols - the symbols array storing the players' symbols.
      */
     void changeSymbol(int player, char[] symbols) {
-
+        //TODO
     }
 
     /**
@@ -175,6 +175,7 @@ public class Connect4 {
      *         EOT (which has an unicode 4) )
      */
     boolean validate(char input, int[][] board) {
+        //TODO
     }
 
     /**
