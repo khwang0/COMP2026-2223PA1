@@ -4,11 +4,11 @@
 ## 2022-23 Semester 1
 
 * Designed by: [Dr. Kevin Wang](mailto:kevinw@comp.hkbu.edu.hk)
-* Q & A: [Piazza](https://piazza.com/)
+* Q & A: [Discord](https://discordapp.com/channels/1004554070083776672/1004554070083776678)
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2026-2223PA1)
 * Due: 
-  * UAT Due: 11:59am (Monday noon), TBD
-  * Programming Due: 23:59pm (Saturday midnight), TBD 
+  * UAT Due: 23:59pm 3rd October, 2022 (Monday midnight)
+  * Programming Due: 23:59pm 20th October, 2022 (Thursday midnight)
 * Download the starter code: [Connect4.java](Connect4.java) 
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2026-2223PA1/archive/refs/heads/master.zip)
@@ -23,7 +23,7 @@
 
 # Learning outcome
 
-Students are expected to have some practice on arrays/2D arrays/parameter passing/method construction and usage in this assignment. We expect most students would spend six hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
+Students are expected to have some practice on arrays/2D arrays/parameter passing/method construction and usage in this assignment. We expect most students would spend six hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Discord if you have any difficulty! Note: we want to familiarize arrays and 2D arrays, so you are not supposed to use advanced data structures like ArrayList, Set, Map, etc...
 
 
 # Introduction
@@ -107,6 +107,7 @@ This assignment is worth X% of the course mark.  There are three elements in the
 * 90% - a working program that functions as specified 
 * 5% - Programming style and documentation 
 * -50% - if you define any class variable (field), addition class, or change the method `main`.
+* -30% - if you use any advanced data structure such as `java.util.List`, `java.util.ArrayList`, `java.util.Arrays`, `java.util.Set`, `java.util.Map` etc to replace your primitive array.
 
 Please note that submitting a program that cannot be compiled would result in a very low mark. 
 
@@ -116,3 +117,5 @@ Please note that submitting a program that cannot be compiled would result in a 
 Should the teaching team see fit, students may be requested to attend an interview to explain about their program.  Students failing to attend such interview or to demonstrate a good understanding of their own program may result in mark deduction. 
 
 
+
+> Special thanks to Leo Lau and Sherry Wong for initial comments and debug.
