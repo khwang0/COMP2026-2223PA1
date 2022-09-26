@@ -55,8 +55,8 @@ public class Connect4 {
         // use
         // these two constants as a reference, i.e., row = HEIGHT - 1, for example.
 
-        int board[][] = new int[HEIGHT][WIDTH];
-        char symbols[] = { '1', '2' };
+        int[][] board = new int[HEIGHT][WIDTH];
+        char[] symbols = { '1', '2' };
         int player = 1;
         printBoard(board, symbols);
 
