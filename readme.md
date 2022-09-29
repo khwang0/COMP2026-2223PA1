@@ -38,9 +38,9 @@ Some methods are labeled as completed or given. Please don't make any change on 
 
 ![](connect4.png)
 
-<sub><sup>image ref: https://www.101computing.net/connect4-challenge/</sup></sub>
+<sub><sup>image ref: https://roadtolarissa.com/connect-4-ai-how-it-works/</sup></sub>
 
-You can skip this section if you have some experience in playing the game Connect4!. It is a grid of 6x8 gameboard where players take turn to drop their block into one of these columns. Their block will reach the bottom by gravity. Whoever player first reaches a line of consecutive four blocks of his/her own symbol wins. The game ends with "draw" if all the holes are filled and no one wins.
+You can skip this section if you have some experience in playing the game Connect4!. It is a grid of 6x8 gameboard where players take turn to drop their block into one of these columns. Their block will reach the bottom by gravity. Whoever player first reaches a line of consecutive four blocks of his/her own symbol wins. ~~The game ends with "draw" if all the holes are filled and no one wins~~. The game ends with "Player 2" wins if all holes are filled.
 
 
 # Explanation about the assignment
@@ -118,4 +118,9 @@ Should the teaching team see fit, students may be requested to attend an intervi
 
 
 
-> Special thanks to Leo Lau and Sherry Wong for initial comments and debug.
+> Special thanks to Leo Lau, Sherry Wong, and various students for comments and debug.
+> ## Update: 
+> 2022-09-29: 
+> - Eliminate the draw rule
+> - Fixing a bug related to a double "CheckMate" condition in the demo program
+> - Changing the Connect4 image to avoid confusion (8 columns in our version)
