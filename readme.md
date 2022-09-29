@@ -36,7 +36,7 @@ Some methods are labeled as completed or given. Please don't make any change on 
 
 # Explanation of the game Connect4
 
-![](connect4-new.png)
+![](connect4-new2.png)
 
 <sub><sup>image ref: https://roadtolarissa.com/connect-4-ai-how-it-works/</sup></sub>
 
