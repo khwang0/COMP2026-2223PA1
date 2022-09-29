@@ -32,11 +32,11 @@ You are going to complete the Connect4 program! Open [Connect4.java](Connect4.ja
 
 A [sample program](demo.jar) is given to you. When there is something you are not sure, you can take a look at the sample program to decide what to do.
 
-Some methods are labeled as completed or given. Please don't make any change on those methods. You are not supposed to modify them.
+Some methods are labeled as completed or given. Please don't make any change on those methods. You are not supposed to modify them. **You can add your own method if you want to**.
 
 # Explanation of the game Connect4
 
-![](connect4.png)
+![](connect4-new.png)
 
 <sub><sup>image ref: https://roadtolarissa.com/connect-4-ai-how-it-works/</sup></sub>
 
